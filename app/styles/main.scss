@@ -12,12 +12,21 @@ $icon-font-path: '../fonts/';
 }
 
 // Header
-#header-container{
+#header-wrapper{
   background-color: #252423;
   width: 100%;
   height: 50px;
 }
 
+#logo-wrapper{
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#logo{
+  width: auto;
+  margin-top: 10px;
+}
 
 
 ///* Space out content a bit */
