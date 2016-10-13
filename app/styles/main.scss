@@ -69,6 +69,24 @@ body{
 #puckdaddy{
   background-color: #ededed;
 }
+
+//Es lohnt sich Section
+.bluebg{
+  background-color: #cde8ed;
+  height: 140px;
+  position: relative;
+}
+
+.bluebg-align-middle{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+
 // End Header
 ///* Space out content a bit */
 //body {
