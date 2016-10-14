@@ -86,9 +86,27 @@ body{
   transform: translate(-50%, -50%)
 }
 
+//Buttons
 #btn-registration{
   background-color: #1590a8;
   color: white;
+}
+
+//Fixed Button
+#btn-feedback{
+    position:fixed;
+    right:0px;
+    width: 100px;
+    height:30px;
+    padding-left:10px;
+    padding-top:0px;
+    background-color: black;
+    color: white;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+}
+#btn-feedback-text{
+
 }
 
 // End Header
