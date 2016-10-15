@@ -81,8 +81,17 @@ body{
   background-color: white;
 }
 
+#mehr_section h2{
+  text-transform: uppercase;
+
+}
+
 #allen-geraten{
   background-color: #d5d5d5;
+}
+
+#allen-geraten h4{
+  text-transform: uppercase;
 }
 
 // Puckdaddy Section
@@ -125,21 +134,58 @@ body{
   z-index: 100;
 }
 // End Header
-.circle {
-  border-radius: 50%;
-  display: inline-block;
-  background: green;
-  width: 2.5em;
-  height: 2.5em;
 
-}
-.line{
-  display: inline-block;
-  background: green;
-  height: 0.5em;
-  width: 300px;
+.circle-wrapper{
   position: relative;
-  margin-bottom: 1.0em;
+  width: 100%;
+  z-index: 76;
+}
+
+.circle {
+  background-color: rgba(204, 0, 102, 0);
+  border: 1px solid #1590a8;
+  background-color: white;
+  top:33%;
+  left:44%;
+  height: 50px;
+  width: 50px;
+  -moz-border-radius:50px;
+  -webkit-border-radius: 50px;
+  z-index: 76;
+  position: absolute;
+ }
+.circle-text{
+  color: #1590a8;
+  font-weight: 900;
+  position: absolute;
+  top:33%;
+  left: 41%;
+  z-index:76;
+}
+
+.line{
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top:50%;
+  background-color: #d5d5d5;
+  z-index:50;
+  //display: inline-block;
+  //background: green;
+  //height: 0.5em;
+  //width: 300px;
+  //position: relative;
+  //margin-bottom: 1.0em;
+}
+
+
+
+#nutze{
+  background-color: white;
+}
+
+#nutze h2{
+  text-transform: uppercase;
 }
 
 //media queries
