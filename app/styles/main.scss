@@ -37,7 +37,6 @@ body{
 
 #intro{
   background: url(../images/hero.jpg) no-repeat center center;
-
   width: 100%;
   height: 333px;
   z-index: 0;
@@ -136,49 +135,106 @@ body{
   z-index: 100;
 }
 // End Header
+#circle-section{
+  height: 200px;
+}
 
 .circle-wrapper{
-  position: relative;
-  width: 100%;
-  z-index: 76;
+  position: relative !important;
+  height: 200px;
 }
 
-.circle {
-  background-color: rgba(204, 0, 102, 0);
-  border: 1px solid #1590a8;
-  background-color: white;
-  top:33%;
-  left:44%;
-  height: 50px;
-  width: 50px;
-  -moz-border-radius:50px;
-  -webkit-border-radius: 50px;
-  z-index: 76;
-  position: absolute;
- }
-.circle-text{
-  color: #1590a8;
-  font-weight: 900;
-  position: absolute;
-  top:33%;
-  left: 41%;
-  z-index:76;
-}
-
-.line{
-  position: absolute;
+#line{
   width: 100%;
   height: 1px;
   top:50%;
-  background-color: #d5d5d5;
-  z-index:50;
-  //display: inline-block;
-  //background: green;
-  //height: 0.5em;
-  //width: 300px;
-  //position: relative;
-  //margin-bottom: 1.0em;
+  background-color: red;
+  position: absolute;
+  z-index: 58;
+
 }
+
+.circle-1{
+   height: 50px;
+   width: 50px;
+   border: 1px solid #1590a8;
+   background-color: white;
+   -moz-border-radius:50px;
+   -webkit-border-radius: 50px;
+   top:-25px;
+   left:15%;
+   position: absolute;
+   z-index: 59;
+ }
+.circle-2{
+  height: 50px;
+  width: 50px;
+  border: 1px solid #1590a8;
+  background-color: white;
+  -moz-border-radius:50px;
+  -webkit-border-radius: 50px;
+  top:-25px;
+  left:48%;
+  position: absolute;
+  z-index: 59;
+}
+.circle-3{
+  height: 50px;
+  width: 50px;
+  border: 1px solid #1590a8;
+  background-color: white;
+  -moz-border-radius:50px;
+  -webkit-border-radius: 50px;
+  top:-25px;
+  left:82%;
+  position: absolute;
+  z-index: 59;
+}
+
+#circle-1-text{
+  position: absolute;
+  top:45px;
+  left:8%;
+}
+
+//.circle-wrapper{
+//  position: relative;
+//  width: 100%;
+//}
+//
+//.circle {
+//  background-color: rgba(204, 0, 102, 0);
+//  border: 1px solid #1590a8;
+//  background-color: white;
+//  top:33%;
+//  left:44%;
+//  height: 50px;
+//  width: 50px;
+//  -moz-border-radius:50px;
+//  -webkit-border-radius: 50px;
+//  position: absolute;
+// }
+//.circle-text{
+//  color: #1590a8;
+//  font-weight: 900;
+//  position: absolute;
+//  top:33%;
+//  left: 41%;
+//}
+//
+//.line{
+//  position: absolute;
+//  width: 100%;
+//  height: 100px;
+//  top:50%;
+//  background-color: #d5d5d5;
+//  //display: inline-block;
+//  //background: green;
+//  //height: 0.5em;
+//  //width: 300px;
+//  //position: relative;
+//  //margin-bottom: 1.0em;
+//}
 
 
 
@@ -210,6 +266,10 @@ body{
     z-index: 1;
   }
 
+  .bluebg-align-middle-space-out{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
 
