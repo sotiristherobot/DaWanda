@@ -41,6 +41,17 @@ body{
   z-index: 0;
 }
 
+#intro-header{
+  float:left;
+}
+
+#intro-mangopay{
+  float:right;
+  min-height: 100%;
+  background-color: white;
+}
+
+
 //main body
 .img-background{
   background-color: white;
@@ -102,11 +113,32 @@ body{
   top: 50%;
   transform: rotate(90deg);
   transform-origin: 0 100%;
-
-
+}
+// End Header
+.circle {
+  width: 49%;
+  padding-bottom: 49%;
+  border-radius: 50%;
+  background-color: purple;
 }
 
-// End Header
+.container .row .col-xs-4 {
+  padding-right: 0;
+  padding-left:0;
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid black;
+}
+
+.col-xs-4 {
+  position: relative;
+}
+.line {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  border: 1px solid #000;
+}
 ///* Space out content a bit */
 //body {
 //  padding-top: 20px;
