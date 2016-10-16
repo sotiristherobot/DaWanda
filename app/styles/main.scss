@@ -19,11 +19,11 @@ body{
 #header-wrapper{
   background-color: #252423;
   width: 100%;
-  height: 58px;
+  height: auto;
 }
 
 #logo-wrapper{
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -34,6 +34,8 @@ body{
   //width: auto;
   z-index: 1;
 }
+
+//End of Header
 
 #intro{
   background: url(../images/hero.jpg) no-repeat center center;
@@ -142,7 +144,7 @@ body{
 }
 // End Header
 #circle-section{
-  height: 200px;
+  height: 250px;
 }
 
 .circle-wrapper{
@@ -393,6 +395,10 @@ body{
   .bluebg-align-middle-space-out{
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .doNotShowInSmallScreen{
+    display: none;
   }
 
 }
