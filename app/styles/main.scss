@@ -162,7 +162,7 @@ body{
 }
 
 #circle-section{
-  height: 250px;
+  height: 280px;
 }
 
 .circle-wrapper{
@@ -190,7 +190,7 @@ body{
 
 .item {
   width: 33.333%;
-  height: 150px;
+  min-height: 180px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -205,13 +205,13 @@ body{
   height: 50px;
   font-weight: bold;
   width: 50px;
-  top:33%;
+  top:40%;
   left:40%;
   display: table;
   position: absolute;
 }
 .circle p {
-    position: absolute;
+  position: absolute;
   top:15px;
   left:21px;
   z-index: 150;
@@ -219,167 +219,11 @@ body{
 
 .circle-text{
   position: absolute;
-  bottom: 0px;
-  left:20%;
+  top:150px;
+  bottom: 0;
+  left:15%;
+  white-space: pre-wrap;
 }
-//
-//.circle-1{
-//   height: 50px;
-//   width: 50px;
-//   border: 1px solid #1590a8;
-//   background-color: white;
-//   -moz-border-radius:50px;
-//   -webkit-border-radius: 50px;
-//   top:-25px;
-//   left:15%;
-//   position: absolute;
-//   z-index: 59;
-// }
-//.circle-2{
-//  height: 50px;
-//  width: 50px;
-//  border: 1px solid #1590a8;
-//  background-color: white;
-//  -moz-border-radius:50px;
-//  -webkit-border-radius: 50px;
-//  top:-25px;
-//  left:48%;
-//  position: absolute;
-//  z-index: 59;
-//}
-//.circle-3{
-//  height: 50px;
-//  width: 50px;
-//  border: 1px solid #1590a8;
-//  background-color: white;
-//  -moz-border-radius:50px;
-//  -webkit-border-radius: 50px;
-//  top:-25px;
-//  left:82%;
-//  position: absolute;
-//  z-index: 59;
-//}
-//
-//#circle-1-text{
-//
-//
-//.block {
-//  text-align: center;
-//  vertical-align: middle;
-//}
-//.block-sm{
-//  text-align: center;
-//  vertical-align: middle;
-//}
-//.circle-sm{
-//  position: absolute;
-//  background: red;
-//  border-radius: 200px;
-//  color: white;
-//  height: 50px;
-//  font-weight: bold;
-//  width: 50px;
-//  display: table;
-//  margin: 20px auto;
-//  position: absolute;
-//  top:-75px;
-//  left:10%;
-//
-//}
-//.circle-sm-2{
-//  position: absolute;
-//  background: red;
-//  border-radius: 200px;
-//  color: white;
-//  height: 50px;
-//  font-weight: bold;
-//  width: 50px;
-//  display: table;
-//  margin: 20px auto;
-//  position: absolute;
-//  top:-75px;
-//  left:40%;
-//
-//}
-//.circle-sm-3{
-//  position: absolute;
-//  background: red;
-//  border-radius: 200px;
-//  color: white;
-//  height: 50px;
-//  font-weight: bold;
-//  width: 50px;
-//  display: table;
-//  margin: 20px auto;
-//  position: absolute;
-//  top:-75px;
-//  left:70%;
-//
-//}
-////.circle {
-////  background: red;
-////  border-radius: 200px;
-////  color: white;
-////  height: 50px;
-////  font-weight: bold;
-////  width: 50px;
-////  display: table;
-////  margin: 20px auto;
-////  position: absolute;
-////  top:-45px;
-////  left:40%;
-////}
-////.circle p {
-////  vertical-align: middle;
-////  display: table-cell;
-////}
-//
-//
-//.circle-text-sm{
-//  margin-top:30px;
-//  width: 50px;
-//}
-////.circle-wrapper{
-////  position: relative;
-////  width: 100%;
-////}
-////
-////.circle {
-////  background-color: rgba(204, 0, 102, 0);
-////  border: 1px solid #1590a8;
-////  background-color: white;
-////  top:33%;
-////  left:44%;
-////  height: 50px;
-////  width: 50px;
-////  -moz-border-radius:50px;
-////  -webkit-border-radius: 50px;
-////  position: absolute;
-//// }
-////.circle-text{
-////  color: #1590a8;
-////  font-weight: 900;
-////  position: absolute;
-////  top:33%;
-////  left: 41%;
-////}
-////
-////.line{
-////  position: absolute;
-////  width: 100%;
-////  height: 100px;
-////  top:50%;
-////  background-color: #d5d5d5;
-////  //display: inline-block;
-////  //background: green;
-////  //height: 0.5em;
-////  //width: 300px;
-////  //position: relative;
-////  //margin-bottom: 1.0em;
-////}
-//
-
-
 #nutze{
   background-color: white;
   height: 180px;
@@ -412,6 +256,23 @@ body{
     margin-top: 150px;
 
   }
+
+  #circle-section{
+    height: 300px;
+  }
+
+  .item{
+    min-height: 300px;
+  }
+
+  .circle-text{
+    position: absolute;
+    top:180px;
+    bottom: 0;
+    left:15%;
+    white-space: pre-wrap;
+  }
+
   .bluebg-align-middle-space-out{
     margin-top: 15px;
     margin-bottom: 15px;
@@ -422,5 +283,4 @@ body{
   }
 
 }
-
 
