@@ -120,12 +120,13 @@ body{
   margin:0 auto;
 }
 
-
 // end of allen geraten section
 
 // Puckdaddy Section
 #puckdaddy{
   background-color: #ededed;
+  height: 230px;
+  padding-top: 20px;
 }
 
 #puckdaddy-img{
@@ -133,6 +134,8 @@ body{
   -moz-border-radius:145px;
   -webkit-border-radius: 145px;
 }
+
+//end of puckdaddy-img
 
 //Es lohnt sich Section
 .bluebg{
@@ -150,14 +153,14 @@ body{
   transform: translate(-50%, -50%)
 }
 
+//End of Es lohnt sich Section
+
 //Buttons
 #btn-registration{
   background-color: #1590a8;
   color: white;
 }
 
-
-// End Header
 #circle-section{
   height: 250px;
 }
