@@ -37,10 +37,12 @@ body{
 
 //End of Header
 
+//landing - intro
 #intro{
   background: url(../images/hero.jpg) no-repeat center center;
+  background-size: cover;
   width: 100%;
-  height: 333px;
+  height: auto ;
   z-index: 0;
 }
 
@@ -48,16 +50,15 @@ body{
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-#intro-header{
-  float:left;
-}
-
 #intro-mangopay{
   float:right;
   height: 330px;
   background-color: white;
 }
+
+// End landing - intro
+
+
 
 
 //main body
